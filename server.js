@@ -17,7 +17,7 @@ app.set('view engine', 'hbs');
 
 app.get('/', (req, res) => {
     res.render("home", {
-        nombre: "Wendy hjuyytg"
+        nombre: "nombre prueba hjuyytg"
     });
 });
 
